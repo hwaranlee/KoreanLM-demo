@@ -5,8 +5,10 @@
 torch, nn, cutorch, cunn, lua-utf8 
 
 ### Trained model:
-Download from ...
-exp/lm-rnn2048x2-v2-wd0-dw1/lm_char_epoch43.00.t7
+Download lm-rnn2048x2-v2-wd0-dw1.zip
+from 1) [[googledrive](https://drive.google.com/open?id=1iVIcqW9f0b4dZw3n5EI92y41TqpUDx7g)] 2) Titan:/data5/demo-sylee/lm-rnn2048x2-v2-wd0-dw1.zip
+
+unzip to: exp/lm-rnn2048x2-v2-wd0-dw1/lm_char_epoch43.00.t7
 
 ## How to execute:
 `$th demo_main_sylgen.lua`
